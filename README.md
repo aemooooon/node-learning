@@ -31,3 +31,6 @@ nodemon # run command
 
 ## Handlebars
 * Install `npm install express-handlebars --save`
+
+## Install mongoose 
+`npm install --save mongoose`
