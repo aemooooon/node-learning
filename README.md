@@ -13,3 +13,17 @@ app.listen(port, () => {
 });
 ```
 4. run `` node app.js
+
+## carete a route
+```javascript
+app.get('/', (req, res) => {
+  res.send('INDEX');
+});
+```
+
+## set up the server to demon user
+```bash
+npm install -g nodemon
+npm root -g
+nodemon
+```
