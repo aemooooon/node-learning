@@ -25,5 +25,9 @@ app.get('/', (req, res) => {
 ```bash
 npm install -g nodemon
 npm root -g
-nodemon
+nodemon # run command
 ```
+
+
+## Handlebars
+* Install `npm install express-handlebars --save`
