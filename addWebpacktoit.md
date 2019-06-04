@@ -1,7 +1,13 @@
 
 install webpack
-1. npm i webpack-cli @webpack-cli/init
-2. npx webpack-cli init (set dist is public/javascripts)
+1. 
+
+> npm i webpack-cli @webpack-cli/init
+
+2. 
+
+> npx webpack-cli init (set dist is public/javascripts)
+
 3. create src/index.js
 4. ./node_modules/.bin/webpack
 
@@ -31,10 +37,15 @@ Add this to the rules section of your webpack.config.js file:
 
 
 7.
-npm install --save babel-loader
-npm install --save react react-dom
-npm install --save-dev @babel/preset-react
-npm install --save-dev @babel/core @babel/preset-env
+
+> npm install --save babel-loader
+
+> npm install --save react react-dom
+
+> npm install --save-dev @babel/preset-react
+
+> npm install --save-dev @babel/core @babel/preset-env
+
 
 8. As a test, add this code to your src/index.js file:
 
